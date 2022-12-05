@@ -1,0 +1,90 @@
+.contenido{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    gap: 50px;
+
+    .textoJu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin: 10px;
+        gap: 20px;
+
+        .textoJu__parrafo{
+            font-family: 'roboto';
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #283643
+        
+        }
+        
+        .textoJu__titulo{
+            width: 250px;
+            font-family: 'roboto';
+            font-size: 40px;
+            color: #2f5022;
+        }
+        
+        .textoJu__titulo1{
+            width: 130px;
+            font-family: 'roboto';
+            font-size: 20px;
+            color: #b08036;
+        }
+        
+    }
+
+    .contJu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        overflow: hidden;
+
+        .contJu__box{
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            min-width: 300px;
+            align-items: center ;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 10px;
+
+            .contJu__box__img{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: center ;
+                padding: 5px;
+                transition: 2s;
+            
+            }
+        }
+    }
+
+    .vidJu{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center ;
+        padding: 5px;
+    
+        .vidJu__va{
+            max-width: 600px;
+            min-width: 300px;
+        }
+        .vidJu__img{
+            width: 241px;
+            height: 300px;
+        }
+    
+    }
+    
+    
+}
