@@ -1,0 +1,170 @@
+@import "reset";
+@import "navbar";
+@import "index";
+@import "loteo_natural";
+@import "vina_y_bodega";
+@import "ubicacion";
+@import "contacto";
+@import "footer";
+
+
+
+.box2__cont{
+    padding-top: 100px;
+}
+/*pagina ubicacion
+
+
+
+.box2__mapa{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.box2__cont{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    align-items: center ;
+    font-family: 'roboto';
+    font-size: 22px;
+    color: #283643;
+}
+
+.box2__desc{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    color: #283643
+}
+.box2__cont--titulo{
+    padding: 10px;
+    position: relative;
+    right: 350px;
+    bottom: 5px;
+    font-family: 'roboto';
+    font-size: 40px;
+    color: #283643;
+}
+*/
+
+/*pagina contacto*/
+.mainContactos{
+    padding-top: 120px;
+}
+
+.contacto__form{
+    padding-top: 100px;
+    padding-left: 5%;
+    background-color: aqua;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4 1fr);
+    grid-template-areas: "contacto__titulo   contacto__titulo"
+                         "contacto__inp1     contacto__mensaje"
+                         "contacto__inp2     contacto__mensaje"
+                         "submit             contacto__subtitulo";
+}
+
+/*.contacto{
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.contacto__form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    
+}
+*/
+.contacto__inp1{
+    display: flex;
+    grid-area: contacto__inp1;
+    max-width: 600px;
+    height: 50px;
+    
+}
+
+.contacto__inp2{
+    grid-area: contacto__inp2;
+    display: flex;
+    justify-content: end;
+    width: 600px;
+    height: 50px;
+
+}
+.contacto__mensaje{
+    grid-area: contacto__mensaje;
+    width: 600px;
+    height: 130px;
+
+}
+
+.submit{
+    grid-area: submit;
+    width: 100px;
+    height: 30px;
+
+}
+
+.contacto__titulo{
+    grid-area: contacto__titulo;
+    font-family: 'roboto';
+    font-size: 40px;
+    color: #283643;
+    
+}
+.contacto__subtitulo{
+    grid-area:contacto__subtitulo ;
+    
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center ;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.box3__img{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    align-items: center ;
+    padding: 5px;
+}
+
+.box3__desc{
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    color: #283643
+}
+
+.cont3{
+    position: relative;
+    top: 150px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+}
