@@ -19,7 +19,7 @@
             font-size: 18px;
             line-height: 30px;
             text-align: center;
-            color: #283643
+            color: $colorTexto
         
         }
         
@@ -27,14 +27,14 @@
             width: 250px;
             font-family: 'roboto';
             font-size: 40px;
-            color: #2f5022;
+            color: $colorTitulo;
         }
         
         .textoJu__titulo1{
             width: 130px;
             font-family: 'roboto';
             font-size: 20px;
-            color: #b08036;
+            color: $colorSubtitulo;
         }
         
     }
@@ -56,13 +56,9 @@
             padding: 10px;
 
             .contJu__box__img{
-                display: flex;
-                flex-direction: column;
                 width: 100%;
-                align-items: center ;
                 padding: 5px;
                 transition: 2s;
-            
             }
         }
     }

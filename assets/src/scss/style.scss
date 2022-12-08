@@ -1,3 +1,4 @@
+@import "variables";
 @import "reset";
 @import "navbar";
 @import "index";
@@ -9,72 +10,15 @@
 
 
 
-.box2__cont{
-    padding-top: 100px;
-}
-/*pagina ubicacion
 
 
-
-.box2__mapa{ 
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 10px;
-
-}
-
-.box2__cont{
-    position: relative;
-    left: 20px;
-    top: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 900px;
-    align-items: center ;
-    font-family: 'roboto';
-    font-size: 22px;
-    color: #283643;
-}
-
-.box2__desc{
-    display: flex;
-    flex-direction: column;
-    font-family: 'roboto';
-    font-size: 18px;
-    line-height: 30px;
-    text-align: left;
-    color: #283643
-}
-.box2__cont--titulo{
-    padding: 10px;
-    position: relative;
-    right: 350px;
-    bottom: 5px;
-    font-family: 'roboto';
-    font-size: 40px;
-    color: #283643;
-}
-*/
 
 /*pagina contacto*/
 .mainContactos{
     padding-top: 120px;
 }
 
-.contacto__form{
-    padding-top: 100px;
-    padding-left: 5%;
-    background-color: aqua;
-    max-width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4 1fr);
-    grid-template-areas: "contacto__titulo   contacto__titulo"
-                         "contacto__inp1     contacto__mensaje"
-                         "contacto__inp2     contacto__mensaje"
-                         "submit             contacto__subtitulo";
-}
+
 
 /*.contacto{
     padding: 10px;
