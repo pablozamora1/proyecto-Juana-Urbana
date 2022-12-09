@@ -39,7 +39,8 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: fixed; }
+  position: fixed;
+  z-index: 1; }
   @media (max-width: 900px) {
     nav {
       padding-right: 15px;
