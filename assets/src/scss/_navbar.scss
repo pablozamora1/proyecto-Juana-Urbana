@@ -34,7 +34,6 @@ nav{
                 &:hover{
                     left: 0;
                 }
-
             }
         }
     }
@@ -51,6 +50,7 @@ nav{
 
     li{
         top: 10px;
+        
         a{
             text-decoration: none;
             color: black;
@@ -93,6 +93,7 @@ nav{
                     // border-color:white;
                 }
             }
+            
             @media(max-width: 900px){
                 background-color: #2f5022;
                 color: white;
@@ -103,10 +104,7 @@ nav{
                 font-size: 13px;
                 flex-wrap: wrap;
             }
-
-    } 
-        
-        
+        } 
     }
 
     .fa-bars{
@@ -121,5 +119,4 @@ nav{
             }
         }
     }
-
 }
