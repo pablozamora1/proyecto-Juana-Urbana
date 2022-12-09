@@ -5,11 +5,11 @@
   justify-content: center;
   width: 400px;
   height: 262px;
-  gap: 5px;
-  padding: 5px; }
+  gap: 10px;
+  padding-top: 10px; }
 
 .contenido .contJu .contJu__box .contJu__box__img, .contenido_vb .cont .box1 .box1__img, .piePag__Img {
-  width: 100%; }
+  width: 90%; }
 
 .contenido .contJu, .section_lt .cont, .contenido_vb .cont {
   display: flex;
