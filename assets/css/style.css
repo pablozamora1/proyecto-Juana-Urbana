@@ -235,7 +235,7 @@ nav {
   gap: 10px;
   grid-template-columns: repeat(2 1fr);
   grid-template-rows: repeat(2 1fr);
-  grid-template-areas: " texto1__vb           img1"  " galeria_vb       galeria_vb"; }
+  grid-template-areas: " texto1__vb       img1"  " galeria_vb       galeria_vb"; }
   .contenido_vb .img1 {
     grid-area: img1;
     display: flex;
