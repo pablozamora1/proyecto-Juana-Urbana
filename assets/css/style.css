@@ -8,7 +8,7 @@
   gap: 10px;
   padding-top: 10px; }
 
-.contenido .contJu .contJu__box .contJu__box__img, .contenido_vb .cont .box1 .box1__img, .piePag__Img {
+.contenido .contJu .contJu__box .contJu__box__img, .contenido_vb .cont .box1 .box1__img {
   width: 90%; }
 
 .contenido .contJu, .section_lt .cont, .contenido_vb .cont {
@@ -151,9 +151,8 @@ nav {
       text-align: center;
       color: #283643; }
     .contenido .textoJu .textoJu__titulo {
-      width: 250px;
       font-family: 'roboto';
-      font-size: 40px;
+      font-size: 30px;
       color: #2f5022; }
     .contenido .textoJu .textoJu__titulo1 {
       width: 130px;
@@ -231,7 +230,7 @@ nav {
 .contenido_vb {
   padding-top: 100px;
   padding-left: 5%;
-  width: 95%;
+  width: 99%;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(2 1fr);
@@ -250,7 +249,8 @@ nav {
     flex-direction: column;
     grid-area: texto1__vb;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    max-width: 700px; }
     .contenido_vb .texto1__vb .texto1__titulo {
       font-family: 'roboto';
       font-size: 30px;
@@ -282,6 +282,9 @@ nav {
   .contenido_vb .cont {
     padding-top: 30px;
     padding-bottom: 30px; }
+    @media (max-width: 500px) {
+      .contenido_vb .cont .box1 {
+        width: 280px; } }
     .contenido_vb .cont .box1 .box1__img {
       transition: 1s; }
       .contenido_vb .cont .box1 .box1__img:hover {
@@ -300,3 +303,6 @@ nav {
   font-family: 'roboto';
   font-size: 18px;
   line-height: 30px; }
+
+.piePag__Img {
+  width: 100%; }

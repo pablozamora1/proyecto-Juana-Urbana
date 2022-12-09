@@ -1,7 +1,7 @@
 .contenido_vb{
     padding-top: 100px;
     padding-left: 5%;
-    width: 95%;
+    width: 99%;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2 1fr) ;
@@ -27,6 +27,8 @@
                             grid-area: texto1__vb;
                             justify-content: center;
                             align-items: center;
+                            max-width: 700px;
+                            
 
                             .texto1__titulo{
                                 font-family: 'roboto';
@@ -72,6 +74,9 @@
                             padding-bottom: 30px;
                             .box1{
                                 @extend %box;
+                                @media (max-width:500px){
+                                    width: 280px;
+                                }
                                 .box1__img{
                                     @extend %img_box;
                                     transition: 1s;
