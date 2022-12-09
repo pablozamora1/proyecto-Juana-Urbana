@@ -40,23 +40,15 @@
     }
 
     .contJu{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        overflow: hidden;
-
+        @extend %cont;
         .contJu__box{
-            display: flex;
-            flex-direction: column;
-            max-width: 400px;
-            min-width: 300px;
-            align-items: center ;
-            margin: 10px;
-            border-radius: 10px;
-            padding: 10px;
-
+            @media(max-width: 500px){
+                width: 300px;
+                
+            }
+            @extend %box;
             .contJu__box__img{
-                width: 100%;
+                @extend %img_box;
                 padding: 5px;
                 transition: 2s;
             }
