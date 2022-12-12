@@ -247,7 +247,8 @@ nav {
     @media (max-width: 400px) {
       .contenido_vb .img1 {
         width: 290px;
-        padding-left: 9%; } }
+        justify-content: center;
+        align-items: center; } }
     .contenido_vb .img1 .img1__vb {
       width: 100%; }
   .contenido_vb .texto1__vb {
@@ -269,7 +270,7 @@ nav {
       line-height: 30px;
       text-align: justify;
       color: #283643; }
-  @media (max-width: 1000px) {
+  @media (max-width: 900px) {
     .contenido_vb {
       display: grid;
       gap: 10px;
