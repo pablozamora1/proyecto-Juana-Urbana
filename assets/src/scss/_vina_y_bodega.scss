@@ -62,7 +62,7 @@
                             grid-area: galeria_vb;
                             
                             .galeria_vb__texto1__cont{
-                                @include texto__titulo(30px, roboto, $colorSubtitulo, wrap);
+                                @include texto__titulo(25px, roboto, $colorSubtitulo, wrap);
                             }
                             .cont{
                                 padding-top: 30px;
