@@ -36,19 +36,13 @@
                             
 
                             .texto1__titulo{
-                                font-family: 'roboto';
-                                font-size: 30px;
-                                color: $colorTitulo;
+                                @include texto__titulo(30px, roboto, $colorTitulo, wrap);
                             } 
 
                             .texto1__parrafo{
                                 width: 80%;
                                 padding-top: 20px;
-                                font-family: 'roboto';
-                                font-size: 18px;
-                                line-height: 30px;
-                                text-align: justify;
-                                color: $colorTexto
+                                @extend %texto;
                             }
                         }
 
@@ -68,9 +62,7 @@
                             grid-area: galeria_vb;
                             
                             .galeria_vb__texto1__cont{
-                                font-family: 'roboto';
-                                font-size: 30px;
-                                color: $colorTitulo;
+                                @include texto__titulo(30px, roboto, $colorSubtitulo, wrap);
                             }
                             .cont{
                                 padding-top: 30px;

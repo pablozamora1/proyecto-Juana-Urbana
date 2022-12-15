@@ -26,11 +26,12 @@
   justify-content: space-around;
   overflow: hidden; }
 
-.section_lt .contenido_lt .texto .texto__parrafo, .section_lt .cont .box .box__desc {
+.section_lt .contenido_lt .texto .texto__parrafo, .section_lt .cont .box .box__desc, .contenido_vb .texto1__vb .texto1__parrafo {
   font-family: 'roboto';
   font-size: 18px;
   line-height: 30px;
-  text-align: center; }
+  text-align: center;
+  color: #283643; }
 
 nav {
   width: 100%;
@@ -151,13 +152,12 @@ nav {
       text-align: center;
       color: #283643; }
     .contenido .textoJu .textoJu__titulo {
-      font-family: 'roboto';
+      font-family: roboto;
       font-size: 30px;
       color: #2f5022;
       flex-wrap: wrap; }
     .contenido .textoJu .textoJu__titulo1 {
-      width: 130px;
-      font-family: 'roboto';
+      font-family: roboto;
       font-size: 20px;
       color: #b08036;
       flex-wrap: wrap; }
@@ -215,12 +215,11 @@ nav {
       margin: 10px;
       padding: 10px;
       gap: 20px; }
-      .section_lt .contenido_lt .texto .texto__parrafo {
-        color: #283643; }
       .section_lt .contenido_lt .texto .texto__titulo {
-        font-family: 'roboto';
-        font-size: 40px;
-        color: #2f5022; }
+        font-family: roboto;
+        font-size: 30px;
+        color: #2f5022;
+        flex-wrap: wrap; }
   .section_lt .cont {
     width: 90%;
     margin-top: 2px; }
@@ -259,17 +258,13 @@ nav {
     align-items: center;
     max-width: 700px; }
     .contenido_vb .texto1__vb .texto1__titulo {
-      font-family: 'roboto';
+      font-family: roboto;
       font-size: 30px;
-      color: #2f5022; }
+      color: #2f5022;
+      flex-wrap: wrap; }
     .contenido_vb .texto1__vb .texto1__parrafo {
       width: 80%;
-      padding-top: 20px;
-      font-family: 'roboto';
-      font-size: 18px;
-      line-height: 30px;
-      text-align: justify;
-      color: #283643; }
+      padding-top: 20px; }
   @media (max-width: 900px) {
     .contenido_vb {
       display: grid;
@@ -283,9 +278,10 @@ nav {
     align-items: center;
     grid-area: galeria_vb; }
     .contenido_vb .galeria_vb .galeria_vb__texto1__cont {
-      font-family: 'roboto';
+      font-family: roboto;
       font-size: 30px;
-      color: #2f5022; }
+      color: #b08036;
+      flex-wrap: wrap; }
     .contenido_vb .galeria_vb .cont {
       padding-top: 30px;
       padding-bottom: 30px; }

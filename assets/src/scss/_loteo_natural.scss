@@ -41,12 +41,9 @@
             
             .texto__parrafo{
                 @extend %texto;
-                color: $colorTexto;
             }
             .texto__titulo{
-                font-family: 'roboto';
-                font-size: 40px;
-                color: $colorTitulo;
+                @include texto__titulo(30px, roboto, $colorTitulo, wrap);
             }
         }
     }

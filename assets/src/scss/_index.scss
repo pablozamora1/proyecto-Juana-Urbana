@@ -24,18 +24,11 @@
         }
         
         .textoJu__titulo{
-            font-family: 'roboto';
-            font-size: 30px;
-            color: $colorTitulo;
-            flex-wrap: wrap;
+            @include texto__titulo(30px, roboto, $colorTitulo, wrap);
         }
         
         .textoJu__titulo1{
-            width: 130px;
-            font-family: 'roboto';
-            font-size: 20px;
-            color: $colorSubtitulo;
-            flex-wrap: wrap;
+            @include texto__titulo(20px, roboto, $colorSubtitulo, wrap);
         }
         
     }
