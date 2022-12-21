@@ -247,7 +247,8 @@ nav {
       .contenido_vb .img1 {
         width: 290px;
         justify-content: center;
-        align-items: center; } }
+        align-items: center;
+        padding-right: 2px; } }
     .contenido_vb .img1 .img1__vb {
       width: 100%; }
   .contenido_vb .texto1__vb {
